@@ -1,0 +1,19 @@
+{
+  "name": "imageabstractionapi",
+  "version": "1.0.0",
+  "description": "Uses Google CSE to return image search results through custome API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarwaterk/imageAbstractionAPI.git"
+  },
+  "author": "Kevin Tarwater",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarwaterk/imageAbstractionAPI/issues"
+  },
+  "homepage": "https://github.com/tarwaterk/imageAbstractionAPI#readme"
+}
