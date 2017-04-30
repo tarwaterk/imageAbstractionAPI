@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/tarwaterk/imageAbstractionAPI/issues"
   },
-  "homepage": "https://github.com/tarwaterk/imageAbstractionAPI#readme"
+  "homepage": "https://github.com/tarwaterk/imageAbstractionAPI#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
