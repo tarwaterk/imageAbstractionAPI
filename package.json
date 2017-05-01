@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Uses Google CSE to return image search results through custome API",
   "main": "index.js",
+  "engines": {
+    "node": "^4.5.0"
+  },
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +22,8 @@
   "homepage": "https://github.com/tarwaterk/imageAbstractionAPI#readme",
   "dependencies": {
     "express": "^4.15.2",
-    "mongodb": "^2.2.26"
+    "mongodb": "^2.2.26",
+    "request": "^2.81.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
