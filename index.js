@@ -8,7 +8,7 @@ var app = express();
 var port = process.env.PORT || 3000;
 var mongoURL = process.env.MONGODB_URI || "mongodb://localhost:27017/";
 
-mongoose.connect("mongodb://localhost:27017/");
+mongoose.connect(mongoURL);
 mongoose.Promise = global.Promise;
 
 var cseKey = "AIzaSyD2lVlPLAtXD1ErKDqIJOrnNUVDQAfjK8U";
@@ -81,6 +81,6 @@ app.get("/:queryString", function(req, res) {
 	}
 });
 
-app.listen(port, function() {
+app.listen(port, function(req, res) {
 	console.log("App now running at http://localhost:" + port);
 });
